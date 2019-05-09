@@ -3,6 +3,7 @@ def xLinha(a, b, c):
     d = (b ** 2) - 4 * a * c
     xI = (-b + (d ** (1 / 2))) / 2 * a
     return xI
+
 def x2Linhas(a, b, c):
     d = (b ** 2) - 4 * a * c
     xII = (-b - (d ** (1 / 2))) / 2 * a
